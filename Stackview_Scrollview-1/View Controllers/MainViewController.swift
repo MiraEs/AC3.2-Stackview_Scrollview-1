@@ -10,25 +10,25 @@ import UIKit
 
 class MainViewController: UIViewController {
   
+    @IBOutlet weak var scrollView: UIScrollView!
+    
+    //MARK: Functions
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+ 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        print("Content Size: \(self.scrollView.contentSize)")
+        print("ScrollView Bounds: \(self.scrollView.bounds)")
+        print("ScrollView Frame: \(self.scrollView.frame)")
+        
+        print("View Frame: \(self.view.frame)")
+        print("View Bounds: \(self.view.bounds)")
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

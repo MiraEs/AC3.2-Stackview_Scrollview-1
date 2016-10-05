@@ -15,6 +15,8 @@
 		145125B71DA2078E00A94953 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145125B61DA2078E00A94953 /* MainViewController.swift */; };
 		145125BA1DA207D100A94953 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145125B91DA207D100A94953 /* SquareView.swift */; };
 		145125BD1DA2088B00A94953 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145125BC1DA2088B00A94953 /* ColorHelper.swift */; };
+		E3A7B0F21DA43A47001C5CF7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A7B0F11DA43A47001C5CF7 /* SecondViewController.swift */; };
+		E3A7B0F61DA43B87001C5CF7 /* colorSquareTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A7B0F51DA43B87001C5CF7 /* colorSquareTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		145125B61DA2078E00A94953 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "View Controllers/MainViewController.swift"; sourceTree = "<group>"; };
 		145125B91DA207D100A94953 /* SquareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SquareView.swift; path = Views/SquareView.swift; sourceTree = "<group>"; };
 		145125BC1DA2088B00A94953 /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorHelper.swift; path = Helpers/ColorHelper.swift; sourceTree = "<group>"; };
+		E3A7B0F11DA43A47001C5CF7 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E3A7B0F51DA43B87001C5CF7 /* colorSquareTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = colorSquareTabBarController.swift; path = ../colorSquareTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +119,9 @@
 		145125B81DA2079100A94953 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E3A7B0F51DA43B87001C5CF7 /* colorSquareTabBarController.swift */,
 				145125B61DA2078E00A94953 /* MainViewController.swift */,
+				E3A7B0F11DA43A47001C5CF7 /* SecondViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -241,7 +247,9 @@
 			files = (
 				145125BA1DA207D100A94953 /* SquareView.swift in Sources */,
 				145125941DA1FBDC00A94953 /* AppDelegate.swift in Sources */,
+				E3A7B0F61DA43B87001C5CF7 /* colorSquareTabBarController.swift in Sources */,
 				145125B71DA2078E00A94953 /* MainViewController.swift in Sources */,
+				E3A7B0F21DA43A47001C5CF7 /* SecondViewController.swift in Sources */,
 				145125BD1DA2088B00A94953 /* ColorHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
